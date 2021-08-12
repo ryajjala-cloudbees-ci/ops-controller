@@ -3,7 +3,8 @@ version: "2"
 id: "ryajjala-cloudbees-ci-ops-controller"
 description: "CloudBees CI configuration bundle for the ryajjala-cloudbees-ci ops-controller Controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/credentials.yaml"
+  - "jcasc/jenkins.yaml"
 plugins:
   - "plugins.yaml"
 catalog:
