@@ -2,6 +2,7 @@ apiVersion: "1"
 version: "2"
 id: "ryajjala-cloudbees-ci-ops-controller"
 description: "CloudBees CI configuration bundle for the ryajjala-cloudbees-ci ops-controller Controller"
+parent: base
 jcasc:
   - "jcasc/credentials.yaml"
   - "jcasc/jenkins.yaml"
